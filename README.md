@@ -29,8 +29,10 @@ First Name, Department, Role.
 
 ## Screenshots
 
-![App Screenshot](https://drive.google.com/file/d/1Cv8_28OlrhbbZYd9p4gNg-KxrXv8ZTvG/view?usp=sharing)
+![App Screenshot](https://drive.google.com/file/d/1Cv8_28OlrhbbZYd9p4gNg-KxrXv8ZTvG/view?usp=sharing). 
+https://drive.google.com/file/d/1Cv8_28OlrhbbZYd9p4gNg-KxrXv8ZTvG/view?usp=sharing
 
-![App Screenshot](https://drive.google.com/file/d/1bIC7tALzLsDCKYhojsmyLN4RZ4EOXvAt/view?usp=sharing)
+![App Screenshot](https://drive.google.com/file/d/1bIC7tALzLsDCKYhojsmyLN4RZ4EOXvAt/view?usp=sharing). 
+https://drive.google.com/file/d/1bIC7tALzLsDCKYhojsmyLN4RZ4EOXvAt/view?usp=sharing
 
 
