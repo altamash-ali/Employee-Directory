@@ -19,7 +19,7 @@ Install my-project with Live Server
 ```
     
 ## Functionality to be Added
-The app must have the following functionalities. Intially Add Employee button navigate to the form page that you will suppose to make a new form but due to lack of time it doesn't work as a responsive or interactive UI design. the form should be styled and validated using CSS and JavaScript.
+The app must have the following functionalities. Intially Add Employee button navigate to the form page that you will suppose to make a new form but due to lack of time it doesn't work as a responsive or interactive UI design and in the form page there is cancel button at the last in the form section, that button will return to navigate employee directory page. The form should be styled and validated using CSS and JavaScript.
 Fields: First Name, Last Name, Email, Department, Role.
 The filter button has popup or toggle function that allows filtering employees by:
 First Name, Department, Role.
