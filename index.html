@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Employee Directory</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <div class="main">
+      <h1 class="heading">Employee Directory</h1>
+      <input type="search" class="inp" placeholder="Search by name or emails">
+      <button onclick="toggleFilter()">Filter</button>
+
+      <div id="filterForm" style="display: none;">
+        <h2>Filter Employees</h2>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"><br><br>
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department"><br><br>
+        <label for="role">Role:</label>
+        <input type="text" id="role" name="role"><br><br>
+        <button type="button">Apply</button>
+        <button type="button">Reset</button>
+    </div>
+    </div>
+  </header>
+
+  <main>
+    <form class="form">
+    <label for="sort">Sort:</label>
+    <select id="sort" name="sort">
+      <option value="" selected>--Select--</option>
+      <option value="first_name">First Name</option>
+      <option value="department">Department</option>
+      <!-- <option value="date_asc">Date Ascending</option>
+      <option value="date_desc">Date Descending</option> -->
+    </select>
+    <label for="show">Show:</label>
+    <select id="show" name="show">
+      <option value="5">5</option>
+      <option value="10" selected>10</option>
+      <option value="20">20</option>
+      <option value="50">50</option>
+      <option value="100">100</option>
+    </select>
+  </form>
+
+  <button class="btn" onclick="window.location.href='form.html'">Add Employee</button>
+  </main>
+
+  <div class="body">
+    <div class="card" id="card1">
+      <div><b>Alice Smith</b></div>
+      <div><b>Email:</b> alice@example.com</div>
+      <div><b>Department:</b> HR</div>
+      <div><b>Role:</b> Manager</div>
+      <button class="bt">Edit</button><button class="bt" onclick="deleted1()">Delete</button>
+    </div>
+    <div class="card" id="card2">
+      <div><b>Bob Johnson</b></div>
+      <div><b>Email:</b> bob@example.com</div>
+      <div><b>Department:</b> IT</div>
+      <div><b>Role:</b> Developer</div>
+      <button class="bt">Edit</button><button class="bt" onclick="deleted2()">Delete</button>
+    </div>
+    <div class="card" id="card3">
+      <div><b>Charlie Lee</b></div>
+      <div><b>Email:</b> charlie@example.com</div>
+      <div><b>Department:</b> Finance</div>
+      <div><b>Role:</b> Analyst</div>
+      <button class="bt">Edit</button><button class="bt" onclick="deleted3()">Delete</button>
+    </div>
+  </div>
+  <footer>
+    <p class="footer">© 2025 Employee Directory App. All rights reserved.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
